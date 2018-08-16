@@ -328,3 +328,7 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+## EDIT BY dhottiki
+# Other packages
+Chart.js-2.7.2/
