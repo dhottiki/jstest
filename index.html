@@ -7,9 +7,14 @@
     <link href="css/default.css" rel="stylesheet" />
 </head>
 <body>
-    <div></div>
-    <canvas id="myChart" width="640" height="480"></canvas>
+    <div>
+        <canvas id="myChart" width="16" height="9"></canvas>
+        <input type="range" name="num" min="0" max="100" step="1" value="10"
+               onchange="changeValue(this.value)">
+        <span id="val">10</span>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="js/scatterData.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
